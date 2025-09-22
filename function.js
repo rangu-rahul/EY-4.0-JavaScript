@@ -27,6 +27,9 @@ const addd = (a, b) => {
     return result;
 };
 
+// //Hosting
+// console.log(g);
+// g = 45;
 
 //ES7
 //parameters
@@ -37,4 +40,19 @@ const addd = (a, b) => {
 
 
 //in one line ES7
-const adding = (a,b) => console.log(a+b); adding(10,20);
+function adding(a, b) {
+    return console.log(a + b);
+} adding(10,20);
+
+
+
+
+let name = "Rahul";
+
+function display(){
+    let name = "Rangu";
+    console.log(`My name is ${name}`);
+    document.write(`My name is ${name}`);
+}
+document.write(`My name is ${name}`);
+display();
