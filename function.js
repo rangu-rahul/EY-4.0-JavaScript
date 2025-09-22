@@ -26,3 +26,15 @@ const addd = (a, b) => {
     console.log(`${a} + ${b} = ${result}`);
     return result;
 };
+
+
+//ES7
+//parameters
+// const adddd = (a, b) => {
+//     console.log(a + b);
+// }
+// adddd(10, 20);
+
+
+//in one line ES7
+const adding = (a,b) => console.log(a+b); adding(10,20);
