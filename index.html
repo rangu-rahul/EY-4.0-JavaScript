@@ -5,12 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVA SCRIPT</title>
-    <!-- <script>
-        var a = 20;
-        console.log(a);
-    </script> -->
+    
+    <script>
+        function demo(){
+            //document.body.style.backgroundColor = "red";
+            document.getElementById("name").innerHTML = "Rahul";
+            document.getElementById("name").style.color = "green";
+            //document.getElementById("name").innerHTML = "Rahulll";
+            document.getElementById("name").style.fontSize = "40px";
+
+
+        }
+    </script>
+
 </head>
 <body>
+    <h1 id = "name">Hello World</h1>
+    <br>
+    <button onclick = "demo()"> Change Text</button>
+    <br>
+
 
     <script src="./function.js"></script>
 </body>

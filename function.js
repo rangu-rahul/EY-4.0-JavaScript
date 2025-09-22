@@ -56,3 +56,8 @@ function display(){
 }
 document.write(`My name is ${name}`);
 display();
+
+
+
+//DOM
+
