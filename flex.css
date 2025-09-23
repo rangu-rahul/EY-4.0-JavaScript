@@ -1,0 +1,31 @@
+.cards{
+    display : grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows : 300px 300px;
+    grid-gap: 30px;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: yellow;
+}
+img{
+    position:absolute;
+}
+p{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+    /* background-color: black; */
+    color: white;
+}
